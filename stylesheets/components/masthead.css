@@ -1,1 +1,72 @@
-/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__action {
+  grid-column-start: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.masthead__technologies {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.masthead__tech-list {
+  text-align: center;
+}
+
+.masthead__tech {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+  margin: 0px 5px;
+}
+
+.masthead__date {
+  grid-row-start: 3;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 11px;
+}
+
+.masthead__logo {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 11px;
+}
+
+.masthead__paper {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 11px;
+}
+
+.masthead__menu-and-search {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.masthead__icons {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__icons:hover {
+  background-color: #f7f7f5;
+}
